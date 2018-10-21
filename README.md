@@ -31,7 +31,7 @@ randomList.getRandom() // -> 'in'
 randomList.getRandom() // -> undefined (when we randomly get all items)
 
 /**
- * Reset array when all items has been got
+ * Reset array when we get all items.
  */
 const randomList2 = new RandomList(list,  { repeatLoop: true }) // Default false
 
