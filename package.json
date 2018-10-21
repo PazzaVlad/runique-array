@@ -1,7 +1,7 @@
 {
   "name": "runique-array",
   "version": "1.1.0",
-  "description": "Randomly returns unique (non-repeating) item from array",
+  "description": "Randomly get unique (non-repeating) item from array that's never the same as the previous.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

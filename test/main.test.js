@@ -6,6 +6,9 @@ const list = ['some', 'items', 'in', 'list']
 /**
  * @todo протестить
  * 5. если сместо массива - другая хрень
+ * 
+ * @todo write docs
+ * add github to package.json
  */
 
 describe('Main', function() {
@@ -52,7 +55,7 @@ describe('Main', function() {
 		}
 	})
 
-	it('Repeat when no items are left', function() {
+	it('Repeat loop when no items are left', function() {
 		const randomList = new RandomList(list, { repeatLoop: true })
 		const newArr = []
 		for (let i = 0; i < 100; i++) {
